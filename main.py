@@ -45,7 +45,6 @@ def main():
             if len(tokens) < 2:
                 print("type: missing argument")
                 continue
-
             arg = tokens[1]
             if arg in ['cd', 'echo', 'exit', 'pwd', 'type']:
                 print(f"{arg} is a shell builtin")
