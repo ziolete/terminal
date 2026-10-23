@@ -5,7 +5,6 @@ import subprocess
 import shlex
 BUILTINS = ["echo", "exit"]
 def main():
-
     while True:
         sys.stdout.write("$ ")
         command = input().strip()
